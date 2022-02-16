@@ -1,8 +1,13 @@
 let fname = 'Cristian';
-let lname = 'Ronaldo';
-let age = prompt("Masukkan umur Cristian Ronaldo!");
+let iname = 'Ronaldo';
+let age = prompt("Masukkan umur Cristian Ronaldo");
+
+// Cara lama
+ // let result fname + + 1name + 'is' + age+ years old";
+
+//alert(result); // Memakai template strings old";
 
 
-//memakai template string
-let result = '${fname} ${lname} is ${age} years old';
+
+let result = `${fname} ${iname} is ${age} years old`;
 alert(result);

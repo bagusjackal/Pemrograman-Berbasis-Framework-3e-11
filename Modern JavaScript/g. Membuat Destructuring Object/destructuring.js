@@ -1,8 +1,8 @@
-let polStudent = ({name, polytechnic}) => {
-	alert('${name} from ${polytechic}');
+let polStudent = ({name, polytechinc}) => {
+    alert(`${name} from ${polytechinc}`);
 };
 
 polStudent({
-	name : 'Syifak',
-	polytechnic: 'Politeknik Negeri Malang'
+    name: 'Ronaldo',
+    polytechinc: 'Politeknik Negeri Malang'
 });
